@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logonrm.oadivinho.MainActivity">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:src="@drawable/doutor_estranho"
+       android:scaleType="matrix"
+       android:id="@+id/imageView1"
+       android:contentDescription="@string/imagem_do_doutor_estranho" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etChuteJogador"
+        android:layout_below="@+id/imageView1"
+        android:hint="@string/informe_o_seu_chute"
+        android:layout_marginTop="@dimen/espacoCampos"
+        android:inputType="number"
+        />
+
+    <Button
+        android:text="@string/chutar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/etChuteJogador"
+        android:textAllCaps="false"
+        android:background="@color/primary_dark"
+        android:textColor="@color/icons"
+        android:onClick="chutar"
+        android:layout_marginTop="@dimen/espacoCampos"/>
+
+    <TextView
+        android:text="@string/ltimo_chute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:id="@+id/textView2"
+        android:layout_marginTop="@dimen/espacoCampos"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/tvUltimoChute"
+        tools:text="0"
+        android:layout_marginTop="@dimen/espacoCampos"
+        android:textSize="@dimen/tamanho_chute"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

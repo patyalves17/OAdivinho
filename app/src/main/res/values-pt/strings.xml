@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O Adivinho</string>
+    <string name="chutar">chutar</string>
+    <string name="imagem_do_doutor_estranho">imagem do doutor estranho</string>
+    <string name="limpar">Limpar</string>
+    <string name="ltimo_chute">Último chute</string>
+    <string name="splash">Bem Vindo</string>
+    <string name="informe_o_seu_chute">informe o seu chute</string>
+    <string name="right">Você acertou</string>
+    <string name="maior">seu chute foi maior</string>
+    <string name="menor">seu chute foi menor</string>
+</resources>

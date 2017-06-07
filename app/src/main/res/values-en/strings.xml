@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O Adivinho</string>
+    <string name="chutar">kick</string>
+    <string name="ltimo_chute">last</string>
+    <string name="limpar">clear</string>
+    <string name="imagem_do_doutor_estranho">image dr strange</string>
+    <string name="splash">welcome</string>
+    <string name="informe_o_seu_chute">report you kick</string>
+    <string name="right">You are right</string>
+    <string name="maior">your kick are big</string>
+    <string name="menor">your kick are small</string>
+</resources>
